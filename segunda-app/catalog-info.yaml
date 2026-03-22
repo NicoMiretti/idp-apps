@@ -1,0 +1,18 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: segunda-app
+  title: segunda-app
+  description: App para testear catalog register
+  annotations:
+    github.com/project-slug: NicoMiretti/idp-apps
+    backstage.io/managed-by-location: "url:https://github.com/NicoMiretti/idp-apps/blob/main/segunda-app/catalog-info.yaml"
+  tags:
+    - idp
+    - python
+spec:
+  type: service
+  lifecycle: experimental
+  owner: user:guest
+  system: test-proyecto
+  providesApis: []
