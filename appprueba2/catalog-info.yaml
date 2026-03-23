@@ -1,0 +1,18 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: appprueba2
+  title: appprueba2
+  description: appPrueba2
+  annotations:
+    github.com/project-slug: NicoMiretti/idp-apps
+    backstage.io/managed-by-location: "url:https://github.com/NicoMiretti/idp-apps/blob/main/appprueba2/catalog-info.yaml"
+  tags:
+    - idp
+    - python
+spec:
+  type: service
+  lifecycle: experimental
+  owner: user:guest
+  system: bup-policies-pro
+  providesApis: []
